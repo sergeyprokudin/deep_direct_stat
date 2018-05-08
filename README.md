@@ -1,3 +1,3 @@
-# deep_direct_stat
+# Deep Directional Statistics: Pose Estimation with Uncertainty Quantification.
 
-Code will appear soon.
+Coming soon.
