@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: datasets
+Version: 0.1
+Summary: Scripts to load preprocessed datasets (PASCAL3D+, CAVIAR, TownCentre, IDIAP)
+Home-page: UNKNOWN
+Author: Sergey Prokudin
+Author-email: sergey.prokudin@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

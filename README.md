@@ -25,7 +25,7 @@ bash scripts/install.sh
 ```
 
 This will create a virtual environment for the project (located in 
-$PROJECT_DIR/py_env folder) and install all necessary dependencies 
+"$PROJECT_DIR/py_env" folder) and install all necessary dependencies 
 (TensorFlow, Keras, etc.).
 
 ## Demo on PASCAL3D+
@@ -34,9 +34,11 @@ $PROJECT_DIR/py_env folder) and install all necessary dependencies
 
 ### PASCAL3D+
 
-Download the preprocessed data into $PROJECT_DIR/data folder:
+Download the preprocessed data :
 
 - https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF
+
+and place it into "$PROJECT_DIR/data" folder.
 
 
 

@@ -1,0 +1,8 @@
+README.md
+setup.py
+angles/__init__.py
+angles/converters.py
+angles.egg-info/PKG-INFO
+angles.egg-info/SOURCES.txt
+angles.egg-info/dependency_links.txt
+angles.egg-info/top_level.txt
