@@ -38,12 +38,12 @@
 
 ## Citing
 
-'''
+```
 @article{prokudin2018deep,
   title={Deep Directional Statistics: Pose Estimation with Uncertainty Quantification},
   author={Prokudin, Sergey and Gehler, Peter and Nowozin, Sebastian},
   booktitle={ECCV},
   year={2018}
 }
-'''
+```
         
