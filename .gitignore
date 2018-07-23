@@ -1,6 +1,6 @@
 data/
+py_env/
 .ipynb_checkpoints/
-py_env
 .idea/workspace.xml
 .idea
 logs/

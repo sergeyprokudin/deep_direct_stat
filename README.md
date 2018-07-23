@@ -5,9 +5,10 @@
     * [Installation](#installation)
     * [Demo on PASCAL3D+](#demo)
     * [Datasets](#datasets)
+        * [PASCAL3D+](#pascal3d)
         * [IDIAP](#idiap)
         * [CAVIAR](#caviar)
-        * [PASCAL3D+](#pascal3d)
+        * [TownCentre](#towncentre)
     * [Models](#models)
         * [Non-probabilistic Baseline](#non-prob)
         * [Single von Mises](#single_vm)
@@ -32,6 +33,13 @@ $PROJECT_DIR/py_env folder) and install all necessary dependencies
 ## Datasets
 
 ### PASCAL3D+
+
+Download the preprocessed data into $PROJECT_DIR/data folder:
+
+- https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF
+
+
+
 ### IDIAP
 ### CAVIAR
 ### TownCentre
