@@ -29,7 +29,7 @@
 
 ## Models
 
-### Non-probabilistic baseline
+### Non-probabilistic Baseline
 ### Single von Mises
 ### Finite Mixture
 ### Infinite Mixture
@@ -53,7 +53,7 @@ ArXiv preprint:
 
 ## References 
 
- - https://github.com/lucasb-eyer/BiternionNet (Original BiternionNet repository)
+ - https://github.com/lucasb-eyer/BiternionNet (original BiternionNet repository)
  - https://github.com/ShapeNet/RenderForCNN (used for getting Pascal3D+ dataset and evaluation)
 
 
