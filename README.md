@@ -49,9 +49,12 @@
 
 ArXiv preprint:
 
-- https://arxiv.org/pdf/1805.03430.pdf
+ - https://arxiv.org/pdf/1805.03430.pdf
 
 ## References 
+
+ - https://github.com/lucasb-eyer/BiternionNet (Original BiternionNet repository)
+ - https://github.com/ShapeNet/RenderForCNN (used for getting Pascal3D+ dataset and evaluation)
 
 
 
