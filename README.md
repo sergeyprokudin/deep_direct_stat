@@ -5,15 +5,15 @@
     * [Installation](#installation)
     * [Demo on Pascal3D+](#demo)
     * [Datasets](#datasets)
-        *[IDIAP](#idiap)
-        *[CAVIAR](#caviar)
-        *[PASCAL3D+](#pascal3d)
+        *[IDIAP](#--idiap)
+        *[CAVIAR](#--caviar)
+        *[PASCAL3D+](#--pascal3d)
     * [Models](#models)
-        *[Non-probabilistic baseline](#non-prob)
-        *[Single von Mises](#single_vm)
-        *[Finite Mixture](#finite_mix)
-        *[Infinite Mixture](#infinite_mix)
-    * [Pre-trained Models]
+        *[Non-probabilistic baseline](#--non-prob)
+        *[Single von Mises](#--single_vm)
+        *[Finite Mixture](#--finite_mix)
+        *[Infinite Mixture](#--infinite_mix)
+    * [Pre-trained Models](#pretrained)
     
 
 ## Installation  
