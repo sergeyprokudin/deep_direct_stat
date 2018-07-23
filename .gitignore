@@ -1,0 +1,13 @@
+data/
+.ipynb_checkpoints/
+py_env
+py_env_old
+.idea/workspace.xml
+.idea
+logs/
+*.job.*
+*.h5
+biternion_net_cluster_logs
+pretrained_models
+images/
+workspace.xml

@@ -9,7 +9,7 @@
         * [CAVIAR](#caviar)
         * [PASCAL3D+](#pascal3d)
     * [Models](#models)
-        * [Non-probabilistic baseline](#non-prob)
+        * [Non-probabilistic Baseline](#non-prob)
         * [Single von Mises](#single_vm)
         * [Finite Mixture](#finite_mix)
         * [Infinite Mixture](#infinite_mix)
