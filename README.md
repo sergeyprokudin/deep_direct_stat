@@ -14,6 +14,7 @@
         * [Finite Mixture](#finite_mix)
         * [Infinite Mixture](#infinite_mix)
     * [Pre-trained Models](#pretrained)
+    * [Citing](#citing)
     
 
 ## Installation  
@@ -35,6 +36,14 @@
 
 ## Pre-trained Models
 
+## Citing
 
-
+'''
+@article{prokudin2018deep,
+  title={Deep Directional Statistics: Pose Estimation with Uncertainty Quantification},
+  author={Prokudin, Sergey and Gehler, Peter and Nowozin, Sebastian},
+  booktitle={ECCV},
+  year={2018}
+}
+'''
         
