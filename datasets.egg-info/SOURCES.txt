@@ -1,8 +1,0 @@
-README.md
-setup.py
-datasets/__init__.py
-datasets/pascal3d.py
-datasets.egg-info/PKG-INFO
-datasets.egg-info/SOURCES.txt
-datasets.egg-info/dependency_links.txt
-datasets.egg-info/top_level.txt
