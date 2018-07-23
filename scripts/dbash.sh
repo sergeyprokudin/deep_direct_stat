@@ -1,4 +1,10 @@
-#!/usr/bin/env bash
+
+DBASH_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+
+PROJECT_DIR="${DBASH_DIR}/.."
+
+PYENV_BIN="${DBASH_DIR}/../py_env/bin/python"
+PYENV_IBIN="${DBASH_DIR}/../py_env/bin/ipython"
 
 dbash::pp() {
     echo -e "$1"

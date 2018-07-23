@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
@@ -14,8 +15,16 @@ if [[ ! -e ${PYENV} ]];then
         dbash::pp "# We install virtualenv!"
         sudo pip install virtualenv
     fi
-    virtualenv -p python3 ${PYENV} --clear
-    virtualenv -p python3 ${PYENV} --relocatable
+    dbash::user_confirm ">> Setup python3 environment?" "n"
+    if [[ "y" == "${USER_CONFIRM_RESULT}" ]];then
+        dbash::pp "Creating python3 environment.."
+        virtualenv -p python3 ${PYENV} --clear
+        virtualenv -p python3 ${PYENV} --relocatable
+    else
+        dbash::pp "Creating python2 environment.."
+        virtualenv -p python ${PYENV} --clear
+        virtualenv -p python ${PYENV} --relocatable
+    fi
 fi
 
 source ${PYENV}/bin/activate
@@ -25,7 +34,7 @@ dbash::user_confirm ">> Update dependencies?" "n"
 if [[ "y" == "${USER_CONFIRM_RESULT}" ]];then
     ${PYENV}/bin/pip install --upgrade pip
     ${PYENV}/bin/pip install --upgrade numpy scipy matplotlib joblib ipdb python-gflags google-apputils autopep8 sklearn
-    ${PYENV}/bin/pip install --upgrade pandas ipython ipdb jupyter opencv-python h5py keras
+    ${PYENV}/bin/pip install --upgrade pandas ipython ipdb jupyter theano opencv-python h5py keras wget jsanimation
 fi
 
 dbash::user_confirm ">> Install tensorflow (CPU-only)?" "n"
@@ -41,5 +50,5 @@ if [[ "y" == "${USER_CONFIRM_RESULT}" ]];then
     ${PYENV}/bin/pip install tensorflow-gpu
 fi
 
-python setup.py install
+python $PROJECT_DIR/setup.py install
 python -m ipykernel install --user --name=py_env

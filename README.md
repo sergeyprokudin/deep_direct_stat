@@ -23,13 +23,18 @@
 bash scripts/install.sh
 ```
 
+This will create a virtual environment for the project (located in 
+$PROJECT_DIR/py_env folder) and install all necessary dependencies 
+(TensorFlow, Keras, etc.).
+
 ## Demo on PASCAL3D+
 
 ## Datasets
 
+### PASCAL3D+
 ### IDIAP
 ### CAVIAR
-### IDIAP
+### TownCentre
 
 ## Models
 
