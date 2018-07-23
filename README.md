@@ -28,6 +28,12 @@ This will create a virtual environment for the project (located in
 "$PROJECT_DIR/py_env" folder) and install all necessary dependencies 
 (TensorFlow, Keras, etc.).
 
+To work with available notebooks, run:
+
+```
+bash scripts/start_notebook.sh
+```
+
 ## Demo on PASCAL3D+
 
 ## Datasets
@@ -38,9 +44,9 @@ Download the preprocessed data :
 
 - https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF
 
-and place it into "$PROJECT_DIR/data" folder.
-
-
+and place it into "$PROJECT_DIR/data" folder. See
+"notebooks/PASCAL3D+ data loading example.ipynb" for an example of
+loading and evaluation.
 
 ### IDIAP
 ### CAVIAR
