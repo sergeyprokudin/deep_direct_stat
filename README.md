@@ -3,7 +3,7 @@
 
  * [Deep Directional Statistics: Pose Estimation with Uncertainty Quantification.](#deep-direct-stat)
     * [Installation](#installation)
-    * [Demo on Pascal3D+]
+    * [Demo on Pascal3D+](#demo)
     * [Datasets](#datasets)
         *[IDIAP](#idiap)
         *[CAVIAR](#caviar)
