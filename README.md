@@ -23,8 +23,15 @@
 ## Datasets
 
 ### IDIAP
+### CAVIAR
+### IDIAP
 
 ## Models
+
+### Non-probabilistic baseline
+### Single von Mises
+### Finite Mixture
+### Infinite Mixture
 
 ## Pre-trained Models
 
