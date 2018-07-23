@@ -15,9 +15,13 @@
         * [Infinite Mixture](#infinite_mix)
     * [Pre-trained Models](#pretrained)
     * [Citing](#citing)
-    
+    * [References](#refs)
 
 ## Installation  
+
+```
+bash scripts/install.sh
+```
 
 ## Demo on PASCAL3D+
 
@@ -54,7 +58,7 @@ ArXiv preprint:
 ## References 
 
  - https://github.com/lucasb-eyer/BiternionNet (original BiternionNet repository)
- - https://github.com/ShapeNet/RenderForCNN (used for getting Pascal3D+ dataset and evaluation)
+ - https://github.com/ShapeNet/RenderForCNN (used for getting PASCAL3D+ dataset and evaluation)
 
 
 
