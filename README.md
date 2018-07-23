@@ -40,7 +40,9 @@ bash scripts/start_notebook.sh
 
 ### PASCAL3D+
 
-Download [the preprocessed data](https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF) and place it into "$PROJECT_DIR/data" folder. See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/PASCAL3D%2B%20data%20loading%20example.ipynb)
+Download [the preprocessed data](https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF) and place it into "$PROJECT_DIR/data" folder.
+
+See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/PASCAL3D%2B%20data%20loading%20example.ipynb)
 for an example of loading and evaluation.
 
 ### IDIAP
