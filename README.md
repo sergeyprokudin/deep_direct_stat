@@ -61,11 +61,13 @@ for an example of loading and evaluation.
 ## Citing
 
 ```
-@article{prokudin2018deep,
-  title={Deep Directional Statistics: Pose Estimation with Uncertainty Quantification},
-  author={Prokudin, Sergey and Gehler, Peter and Nowozin, Sebastian},
-  booktitle={ECCV},
-  year={2018}
+@conference{deepdirectstat2018,
+  title = {Deep Directional Statistics: Pose Estimation with Uncertainty Quantification},
+  author = {Prokudin, Sergey and Gehler, Peter and Nowozin, Sebastian},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  month = sep,
+  year = {2018},
+  month_numeric = {9}
 }
 ```
 

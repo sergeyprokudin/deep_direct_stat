@@ -7,8 +7,11 @@
       <change beforePath="$USER_HOME$/BiternionNet/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/InferenceDemo.ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/InferenceDemo.ipynb" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_Imagenet_Loading.ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_Imagenet_Loading.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deep_direct_stat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep_direct_stat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/PASCAL3D+ data loading example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Untitled.ipynb" beforeDir="false" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-296">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -61,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="261">
-                <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <first_editor relative-caret-position="1080">
+                <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -116,8 +119,8 @@
       <file leaf-file-name="biternion_cnn.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/BiternionNet/models/biternion_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="153">
+              <caret line="212" column="30" lean-forward="true" selection-start-line="212" selection-start-column="30" selection-end-line="212" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -164,16 +167,12 @@
           <expand>
             <path>
               <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep_direct_stat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep_direct_stat" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="BiternionNet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
               <item name="BiternionNet" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,7 +182,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -362,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/BiternionNet/models/biternion_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/BiternionNet/train_pascal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
@@ -418,7 +410,14 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-296">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/BiternionNet/models/biternion_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="212" column="30" lean-forward="true" selection-start-line="212" selection-start-column="30" selection-end-line="212" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -430,8 +429,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="261">
-            <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <first_editor relative-caret-position="1080">
+            <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
