@@ -34,6 +34,13 @@ To work with available notebooks, run:
 bash scripts/start_notebook.sh
 ```
 
+Evaluation:
+
+```
+matlab -nodisplay -rath('/lustre/home/sprokudin/RenderForCNN/view_estimation'); test_gt('/home/sprokudin/RenderForCNN/view_estimation/vp_test_results_mixture','/lustre/home/sprokudin/RenderForCNN/data/real_images/voc12val_easy_gt_bbox'); ; catch; end; quit;"
+ -nodisplay -r "try addpath('view_estimation'); test_gt('/view_estimation/vp_test_results_mixture','data/real_images/voc12val_easy_gt_bbox'); ; catch; end; quit;"
+```
+
 ## Demo on PASCAL3D+
 
 ## Datasets
