@@ -6,15 +6,6 @@
     * [Demo on PASCAL3D+](#demo)
     * [Datasets](#datasets)
         * [PASCAL3D+](#pascal3d)
-        * [IDIAP](#idiap)
-        * [CAVIAR](#caviar)
-        * [TownCentre](#towncentre)
-    * [Models](#models)
-        * [Non-probabilistic Baseline](#non-prob)
-        * [Single von Mises](#single_vm)
-        * [Finite Mixture](#finite_mix)
-        * [Infinite Mixture](#infinite_mix)
-    * [Pre-trained Models](#pretrained)
     * [Citing](#citing)
     * [References](#refs)
 
@@ -50,18 +41,8 @@ matlab -nodisplay -rath('/lustre/home/sprokudin/RenderForCNN/view_estimation'); 
 Download [the preprocessed data](https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF) and place it into "$PROJECT_DIR/data" folder.
 
 See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/PASCAL3D%2B%20data%20loading%20example.ipynb)
-for an example of loading and evaluation.
+for an example of loading.
 
-### IDIAP
-### CAVIAR
-### TownCentre
-
-## Models
-
-### Non-probabilistic Baseline
-### Single von Mises
-### Finite Mixture
-### Infinite Mixture
 
 ## Pre-trained Models
 
