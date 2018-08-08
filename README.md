@@ -43,7 +43,14 @@ See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/mast
 for an example of loading.
 
 
+## Training
+
+Coming soon.
+
+
 ## Pre-trained Models
+
+Coming soon.
 
 ## Citing
 
