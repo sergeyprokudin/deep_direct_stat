@@ -27,8 +27,9 @@ def main():
     model = BiternionMixture(z_size=2, backbone_cnn='inception', hlayer_size=512, n_samples=50)
     ckpt_path = os.path.join(log_dir, '%s.h5' % cls)
 
-    log_step("training started..")
-    model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=50, patience=5)
+    log_step("training on class :%s" % cls)
+    model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=50,
+              patience=5, batch_size=32)
 
     log_step("training finished. loading weights..")
     model.model.load_weights(ckpt_path)
@@ -42,7 +43,7 @@ def main():
         os.mkdir(save_dir)
 
     model.save_detections_for_official_eval(x_test, os.path.join(save_dir, '%s_pred_view.txt' % cls))
-    log_step("all done")
+    log_step("all done. Model checkpoint: %s" % ckpt_path)
 
 
 if __name__ == '__main__':
