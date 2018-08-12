@@ -6,7 +6,7 @@
 * [Datasets](#datasets)
     * [PASCAL3D+](#pascal3d)
 * [Training](#training)
-* [Pre-trained models](#pre-trained-models)
+* [Pre-trained Models](#pre-trained-models)
 * [Citing](#citing)
 * [References](#refs)
 
