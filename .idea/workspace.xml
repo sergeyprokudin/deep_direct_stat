@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46784f07-3022-43f0-bad3-7fd748ac1d3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/models/infinite_mixture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/custom_keras_callbacks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/losses.py" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/ModelAnalysis.ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/ModelAnalysis.ipynb" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/models/biternion_mixture.py" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/models/biternion_mixture.py" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/notebooks/Pascal3D+.ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/notebooks/Pascal3D+.ipynb" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training-(VAE, complex density).ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training-(VAE, complex density).ipynb" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/utils/losses.py" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/utils/losses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angles/converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/angles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/pascal3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/pascal3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/datasets-0.1-py3.6.egg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/datasets-0.1-py3.6.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/PASCAL3D+ data loading example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/PASCAL3D+ data loading example.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Infinite Mixture Demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Infinite Mixture Demo.ipynb" afterDir="false" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="md" value="71" />
+          <entry key="md" value="77" />
           <entry key="py" value="866" />
           <entry key="sh" value="13" />
         </counts>
@@ -70,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="13" />
-          <entry key="Markdown" value="71" />
+          <entry key="Markdown" value="77" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Python" value="866" />
         </counts>
@@ -82,19 +70,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="540">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="-1084">
               <caret line="385" column="29" lean-forward="true" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -108,8 +96,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="468">
-                <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <first_editor relative-caret-position="565">
+                <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -537,14 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="385" column="29" lean-forward="true" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1534107092000" expanded="true" signature="8285:8730" ph="..." />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -556,17 +540,21 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="468">
-            <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <first_editor relative-caret-position="565">
+            <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-1084">
+          <caret line="385" column="29" lean-forward="true" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1534107092000" expanded="true" signature="8285:8730" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
