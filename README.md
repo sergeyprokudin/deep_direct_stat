@@ -1,14 +1,14 @@
 # Deep Directional Statistics: Pose Estimation with Uncertainty Quantification.
 
 
- * [Deep Directional Statistics: Pose Estimation with Uncertainty Quantification.](#deep-direct-stat)
-    * [Installation](#installation)
-    * [Datasets](#datasets)
-        * [PASCAL3D+](#pascal3d)
-    * [Training](#training)
-    * [Pre-trained models](#pre-trained-models)
-    * [Citing](#citing)
-    * [References](#refs)
+
+* [Installation](#installation)
+* [Datasets](#datasets)
+    * [PASCAL3D+](#pascal3d)
+* [Training](#training)
+* [Pre-trained models](#pre-trained-models)
+* [Citing](#citing)
+* [References](#refs)
 
 ## Installation  
 
