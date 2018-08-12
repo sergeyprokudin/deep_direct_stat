@@ -10,7 +10,7 @@ biternion_net_cluster_logs
 pretrained_models
 images/
 workspace.xml
-
+dist/
 
 
 # **** standard Python *******

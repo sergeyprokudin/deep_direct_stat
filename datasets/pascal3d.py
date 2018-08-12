@@ -1,8 +1,7 @@
 import os
+from os.path import dirname
 import h5py
 import numpy as np
-
-PASCAL_DATA_DB = '../data/pascal3d+_imagenet_train_test.h5'
 
 PASCAL_CLASSES = ['aeroplane', 'bicycle', 'boat', 'bottle', 'bus', 'car',
                   'chair', 'diningtable', 'motorbike', 'sofa',  'train', 'tvmonitor']
@@ -11,8 +10,8 @@ PASCAL_CLASSES = ['aeroplane', 'bicycle', 'boat', 'bottle', 'bus', 'car',
 def help():
     print("File %s not found!\n\n"
           "Download the preprocessed PASCAL3D+ dataset first:\n\n"
-          "https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF\n\n"
-          "and move it to %s" % (PASCAL_DATA_DB, PASCAL_DATA_DB))
+          "https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF\n\n")
+
 
 def train_val_split(x, y, val_split=0.2, canonical_split=True):
 
@@ -62,7 +61,7 @@ def merge_all_classes(data):
     return images, angles
 
 
-def load_pascal_data(cls=None, val_split=0.2, canonical_split=True):
+def load_pascal_data(pascaldb_path, cls=None, val_split=0.2, canonical_split=True):
     """ Load cropped ground truth images from PASCAL3D+ dataset (augmented with Imagenet)
 
     Original data:
@@ -99,10 +98,10 @@ def load_pascal_data(cls=None, val_split=0.2, canonical_split=True):
 
     """
 
-    if not os.path.exists(PASCAL_DATA_DB):
+    if not os.path.exists(pascaldb_path):
         help()
 
-    train_test_data_db = h5py.File(PASCAL_DATA_DB, 'r')
+    train_test_data_db = h5py.File(pascaldb_path, 'r')
 
     train_data = train_test_data_db['train']
     test_data = train_test_data_db['test']
