@@ -5,6 +5,7 @@
     * [Installation](#installation)
     * [Datasets](#datasets)
         * [PASCAL3D+](#pascal3d)
+    * [Training](#training)
     * [Citing](#citing)
     * [References](#refs)
 
@@ -24,9 +25,6 @@ To work with available notebooks, run:
 bash scripts/start_notebook.sh
 ```
 
-
-## Demo on PASCAL3D+
-
 ## Datasets
 
 ### PASCAL3D+
@@ -37,7 +35,7 @@ Download [the preprocessed data](https://drive.google.com/open?id=1bDcISYXmCcTqZ
 Note: all angles are stored in biternion (cos, sin) representation. Converters to degrees\radians are available at 
 utils/angles.py
 
-See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/PASCAL3D%2B%20data%20loading%20example.ipynb)
+See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/PASCAL3D%2B%20Data%20Loading%20Demo.ipynb)
 for an example of loading.
 
 
@@ -49,7 +47,8 @@ Coming soon.
 
 Download [pretrained models](https://drive.google.com/file/d/1H29OVZn5jdlQDQt6_R7eK7WOEinmgxcy/view?usp=sharing).
 
-See [demo notebook]
+See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/Pascal3D%2B%20Model%20Demo.ipynb)
+for an example of loading, predicting and evaluating the model.
 
 ## Citing
 

@@ -8,9 +8,6 @@
       <change beforePath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training-(VAE, complex density).ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training-(VAE, complex density).ipynb" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/utils/losses.py" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/utils/losses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/PASCAL3D+ data loading example.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Pascal3D+ training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Pascal3D+ training.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Pascal3d Model Demo.ipynb" beforeDir="false" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="md" value="254" />
+          <entry key="md" value="346" />
           <entry key="py" value="866" />
           <entry key="sh" value="13" />
         </counts>
@@ -61,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="13" />
-          <entry key="Markdown" value="254" />
+          <entry key="Markdown" value="346" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Python" value="866" />
         </counts>
@@ -99,8 +96,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+              <first_editor relative-caret-position="294">
+                <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -242,6 +239,16 @@
             <path>
               <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_direct_stat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_direct_stat" type="462c0819:PsiDirectoryNode" />
+              <item name="models.egg-info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_direct_stat" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -555,8 +562,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <first_editor relative-caret-position="294">
+            <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
