@@ -10,10 +10,19 @@ setup(
 )
 
 setup(
-    name="angles",
+    name="utils",
     version=0.1,
-    description="Misc utils to work with angles (converters, etc.)",
+    description="Misc utils for the project (converters, von Mises losses, etc.)",
     author="Sergey Prokudin",
     author_email="sergey.prokudin@gmail.com",
-    packages=["angles"],
+    packages=["utils"],
+)
+
+setup(
+    name="models",
+    version=0.1,
+    description="Keras models for object orientation prediction",
+    author="Sergey Prokudin",
+    author_email="sergey.prokudin@gmail.com",
+    packages=["models"],
 )

@@ -35,6 +35,7 @@ if [[ "y" == "${USER_CONFIRM_RESULT}" ]];then
     ${PYENV}/bin/pip install --upgrade pip
     ${PYENV}/bin/pip install --upgrade numpy scipy matplotlib joblib ipdb python-gflags google-apputils autopep8 sklearn
     ${PYENV}/bin/pip install --upgrade pandas ipython ipdb jupyter theano opencv-python h5py keras wget jsanimation
+    ${PYENV}/bin/pip install --upgrade pillow
 fi
 
 dbash::user_confirm ">> Install tensorflow (CPU-only)?" "n"
@@ -50,5 +51,6 @@ if [[ "y" == "${USER_CONFIRM_RESULT}" ]];then
     ${PYENV}/bin/pip install tensorflow-gpu
 fi
 
+cd ..
 python $PROJECT_DIR/setup.py install
 python -m ipykernel install --user --name=py_env

@@ -86,16 +86,16 @@ def load_pascal_data(cls=None, val_split=0.2, canonical_split=True):
     x_train: numpy array of shape [n_images, 224, 224, 3]
         train cropped object images
     y_train: numpy array of shape [n_images, 6]
-        train ground truth object orientation angles (pan-tilt-roll) in biternion form:
+        train ground truth object orientation utils (pan-tilt-roll) in biternion form:
         [pan_cos, pan_sin, tilt_cos, tilt_sin, roll_cos, roll_sin]
     x_val: numpy array of shape [n_images, 224, 224, 3]
         validation images
     y_val: numpy array of shape [n_images, 6]
-        validation ground truth angles
+        validation ground truth utils
     x_test: numpy array of shape [n_images, 224, 224, 3]
         test images
     y_test: numpy array of shape [n_images, 6]
-        test ground truth angles
+        test ground truth utils
 
     """
 
