@@ -6,6 +6,7 @@
     * [Datasets](#datasets)
         * [PASCAL3D+](#pascal3d)
     * [Training](#training)
+    * [Pre-trained models](#pre-trained-models)
     * [Citing](#citing)
     * [References](#refs)
 
@@ -41,14 +42,24 @@ for an example of loading.
 
 ## Training
 
-Coming soon.
+To train on one of PASCAL3D+ classes,run:
+
+```
+source py_env/bin/activate
+python training_scripts/train_pascal3d.py CLS_NAME
+``` 
+
+where CLS_NAME is one of the PASCAL classes (aeroplane, car, ...)
+
+Alternatively, see the [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/Pascal3D%2B%20training.ipynb)
+for a step-by-step training procedure.
 
 ## Pre-trained Models
 
 Download [pretrained models](https://drive.google.com/file/d/1H29OVZn5jdlQDQt6_R7eK7WOEinmgxcy/view?usp=sharing).
 
 See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/Pascal3D%2B%20Model%20Demo.ipynb)
-for an example of loading, predicting and evaluating the model.
+for an example of loading, predicting and evaluating pre-trained PASCAL3d+ models.
 
 ## Citing
 
