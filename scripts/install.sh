@@ -10,21 +10,10 @@ cd ${SCRIPT_DIR}
 
 PYENV="${SCRIPT_DIR}/../py_env"
 if [[ ! -e ${PYENV} ]];then
-    dbash::pp "# We setup a virtual environment for this project!"
-    if ! dbash::command_exists virtualenv;then
-        dbash::pp "# We install virtualenv!"
-        sudo pip install virtualenv
-    fi
-    dbash::user_confirm ">> Setup python3 environment?" "n"
-    if [[ "y" == "${USER_CONFIRM_RESULT}" ]];then
-        dbash::pp "Creating python3 environment.."
-        virtualenv -p python3 ${PYENV} --clear
-        virtualenv -p python3 ${PYENV} --relocatable
-    else
-        dbash::pp "Creating python2 environment.."
-        virtualenv -p python ${PYENV} --clear
-        virtualenv -p python ${PYENV} --relocatable
-    fi
+    dbash::pp "# We will setup a Python3 virtual environment for this project!"
+    dbash::pp "Creating python3 environment.."
+    virtualenv -p python3 ${PYENV} --clear
+    virtualenv -p python3 ${PYENV} --relocatable
 fi
 
 source ${PYENV}/bin/activate
