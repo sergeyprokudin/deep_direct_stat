@@ -40,6 +40,8 @@ See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/mast
 for an example of loading.
 
 
+### TownCentre
+
 ## Training
 
 To train on one of PASCAL3D+ classes,run:

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46784f07-3022-43f0-bad3-7fd748ac1d3f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/datasets/caviar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/idiap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/towncentre.py" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/.idea/BiternionNet.iml" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/.idea/BiternionNet.iml" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/.idea/modules.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/.idea/vcs.xml" afterDir="false" />
@@ -10,7 +13,7 @@
       <change beforePath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training-(VAE, complex density).ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training-(VAE, complex density).ipynb" afterDir="false" />
       <change beforePath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training.ipynb" beforeDir="false" afterPath="$USER_HOME$/BiternionNet/notebooks/Pascal3D_training.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,39 +32,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-296">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+      <file leaf-file-name="PASCAL3D+ Data Loading Demo.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebooks/PASCAL3D+ Data Loading Demo.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_gt.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view_estimation/test_gt.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+      <file leaf-file-name="Pascal3D+ Model Demo.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebooks/Pascal3D+ Model Demo.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compute_vp_acc_mederror.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view_estimation/compute_vp_acc_mederror.m">
+      <file leaf-file-name="train_vgg_towncentre.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/BiternionNet/train_vgg_towncentre.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="551">
-                <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+              <first_editor relative-caret-position="311">
+                <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -70,48 +73,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/install.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aeroplane.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view_estimation/voc12val_easy_gt_bbox/aeroplane.txt">
+      <file leaf-file-name="towncentre.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasets/towncentre.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="angle2dcm.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view_estimation/angle2dcm.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="box_overlap.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view_estimation/box_overlap.m">
+      <file leaf-file-name="caviar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasets/caviar.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="angles.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/BiternionNet/utils/angles.py">
+      <file leaf-file-name="idiap.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasets/idiap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-715">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="biternion_cnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/BiternionNet/models/biternion_cnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="212" column="30" selection-start-line="212" selection-start-column="30" selection-end-line="212" selection-end-column="30" />
+      <file leaf-file-name="Pascal3D+ training.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebooks/Pascal3D+ training.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -148,8 +133,8 @@
         <option value="$PROJECT_DIR$/view_estimation/vp_test_results/angle2dcm.m" />
         <option value="$PROJECT_DIR$/view_estimation/compute_vp_acc_mederror.m" />
         <option value="$PROJECT_DIR$/view_estimation/angle2dcm.m" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/scripts/install.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,11 +161,21 @@
             <path>
               <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_direct_stat" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
               <item name="BiternionNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiternionNet" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_direct_stat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiternionNet" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,6 +195,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/view_estimation" />
     </key>
@@ -231,7 +229,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25171143" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -466,13 +463,6 @@
     <entry file="file://$PROJECT_DIR$/view_estimation/vp_test_results_mixture/aeroplane_pred_view.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/view_estimation/test_gt.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view_estimation/vp_test_results/bottle_pred_view.txt.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -489,10 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="219">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -500,6 +490,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/Pascal3D+ training.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/Pascal3D+ Model Demo.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/BiternionNet/train_vgg_towncentre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/towncentre.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/caviar.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/idiap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view_estimation/test_gt.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/PASCAL3D+ Data Loading Demo.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
         </state>
       </provider>
     </entry>
@@ -511,19 +556,12 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <first_editor relative-caret-position="311">
+            <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
