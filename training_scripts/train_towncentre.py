@@ -43,7 +43,7 @@ def main():
                          hlayer_size=512, n_samples=2)
 
     log_step("training started")
-    ckpt_path = '../logs/towncentre.h5'
+    ckpt_path = os.path.join(log_dir, 'logs/towncentre.h5')
 
     model.fit(xtr, ytr, validation_data=[xval, yval], ckpt_path=ckpt_path, epochs=50, patience=5)
 
