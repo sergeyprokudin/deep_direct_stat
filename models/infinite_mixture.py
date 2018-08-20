@@ -16,6 +16,7 @@ from keras.layers.merge import concatenate
 from keras.optimizers import Adam
 from keras.applications.inception_resnet_v2 import InceptionResNetV2
 from keras.applications.densenet import DenseNet169
+from keras.applications.mobilenetv2 import MobileNetV2
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from utils.custom_keras_callbacks import ModelCheckpointEveryNBatch
 
@@ -34,6 +35,7 @@ class BiternionMixture:
                  input_shape=[224, 224, 3],
                  debug=False,
                  backbone_cnn='inception',
+                 backbone_weights='imagenet',
                  learning_rate=1.0e-4,
                  z_size=2,
                  n_samples=5,
@@ -49,6 +51,7 @@ class BiternionMixture:
         self.n_samples = n_samples
         self.noise_std = noise_std
         self.n_sample_outputs = 9
+        self.backbone_weights = backbone_weights
 
         if debug:
             x_in = Input(shape=input_shape)
@@ -56,10 +59,13 @@ class BiternionMixture:
             x = Dense(128, activation='relu')(x)
         else:
             if backbone_cnn == 'inception':
-                backbone_model = InceptionResNetV2(weights='imagenet', include_top=False,
+                backbone_model = InceptionResNetV2(weights=self.backbone_weights, include_top=False,
                                                    input_shape=input_shape)
             elif backbone_cnn == 'densenet':
-                backbone_model = DenseNet169(weights='imagenet', include_top=False,
+                backbone_model = DenseNet169(weights=self.backbone_weights, include_top=False,
+                                             input_shape=input_shape)
+            elif backbone_cnn == 'mobilenet':
+                backbone_model = MobileNetV2(weights=self.backbone_weights, include_top=False,
                                              input_shape=input_shape)
 
             x = backbone_model.output
@@ -107,7 +113,8 @@ class BiternionMixture:
 
         for sid in range(0, self.n_samples):
 
-            az_mean, az_kappa, el_mean, el_kappa, ti_mean, ti_kappa = self.unpack_sample_preds(y_pred[:, sid * n_feat:sid * n_feat + n_feat])
+            az_mean, az_kappa, el_mean, el_kappa, ti_mean, ti_kappa = \
+                self.unpack_sample_preds(y_pred[:, sid * n_feat:sid * n_feat + n_feat])
 
             sample_az_likelihoods.append(K.exp(von_mises_log_likelihood_tf(az_target,
                                                                            az_mean,
