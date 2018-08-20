@@ -4,6 +4,7 @@
     <list default="true" id="46784f07-3022-43f0-bad3-7fd748ac1d3f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" afterPath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/utils/losses.py" afterPath="$USER_HOME$/BiternionNet/utils/losses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_scripts/train_towncentre.py" afterPath="$PROJECT_DIR$/training_scripts/train_towncentre.py" />
     </list>
     <ignored path="deep_direct_stat.iws" />
@@ -77,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/training_scripts/train_towncentre.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.636646">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -912,7 +913,7 @@
     <entry file="file://$PROJECT_DIR$/training_scripts/train_towncentre.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.636646">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
