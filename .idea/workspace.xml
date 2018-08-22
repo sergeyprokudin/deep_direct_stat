@@ -4,8 +4,7 @@
     <list default="true" id="46784f07-3022-43f0-bad3-7fd748ac1d3f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" afterPath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/utils/losses.py" afterPath="$USER_HOME$/BiternionNet/utils/losses.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_scripts/train_pascal3d.py" afterPath="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/infinite_mixture.py" afterPath="$PROJECT_DIR$/models/infinite_mixture.py" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="infinite_mixture.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="infinite_mixture.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1296296">
-              <caret line="334" column="36" selection-start-line="334" selection-start-column="36" selection-end-line="334" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.7">
+              <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -50,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_pascal3d.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_pascal3d.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5045872">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4444447">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -166,8 +165,8 @@
         <option value="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
         <option value="$PROJECT_DIR$/training_scripts/train_towncentre.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/models/infinite_mixture.py" />
         <option value="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
+        <option value="$PROJECT_DIR$/models/infinite_mixture.py" />
       </list>
     </option>
   </component>
@@ -867,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/BiternionNet/train_pascal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/BiternionNet/train_pascal_mixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -897,16 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1296296">
-          <caret line="334" column="36" selection-start-line="334" selection-start-column="36" selection-end-line="334" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datasets/towncentre.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.555555">
@@ -917,12 +896,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/BiternionNet/train_pascal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5045872">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -36,12 +36,12 @@ class BiternionMixture:
                  debug=False,
                  backbone_cnn='inception',
                  backbone_weights='imagenet',
-                 learning_rate=1.0e-5,
+                 learning_rate=1.0e-4,
                  z_size=2,
                  n_samples=5,
                  hlayer_size=512,
                  noise_std=1.0,
-                 gammas=[1.0e-2, 1.0e-2, 1.0e-2]):
+                 gammas=[1.0e-1, 1.0e-1, 1.0e-1]):
 
         self.input_shape = input_shape
         self.learning_rate = learning_rate
@@ -221,7 +221,7 @@ class BiternionMixture:
         self.model.fit(x, y, validation_data=validation_data,
                        epochs=epochs,
                        batch_size=batch_size,
-                       callbacks=[])
+                       callbacks=[early_stop_cb, model_ckpt])
 
         self.model.load_weights(ckpt_path)
 
