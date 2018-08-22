@@ -37,7 +37,7 @@ class BiternionMixture:
                  backbone_cnn='inception',
                  backbone_weights='imagenet',
                  learning_rate=1.0e-4,
-                 z_size=2,
+                 z_size=8,
                  n_samples=5,
                  hlayer_size=512,
                  noise_std=1.0,
