@@ -221,7 +221,7 @@ class BiternionMixture:
         self.model.fit(x, y, validation_data=validation_data,
                        epochs=epochs,
                        batch_size=batch_size,
-                       callbacks=[early_stop_cb, model_ckpt])
+                       callbacks=[])
 
         self.model.load_weights(ckpt_path)
 

@@ -33,7 +33,7 @@ def main():
     # model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=5,
     #           patience=5, batch_size=32)
 
-    model.fit(x_train[0:50], y_train[0:50], validation_data=[x_train[0:50], y_train[0:50]], ckpt_path=ckpt_path, epochs=5,
+    model.fit(x_train[0:50], y_train[0:50], validation_data=[x_train[0:50], y_train[0:50]], ckpt_path=ckpt_path, epochs=100,
               patience=5, batch_size=32)
 
     model.evaluate(x_train[0:50],  y_train[0:50])
