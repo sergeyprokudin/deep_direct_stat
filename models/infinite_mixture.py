@@ -36,12 +36,12 @@ class BiternionMixture:
                  debug=False,
                  backbone_cnn='inception',
                  backbone_weights='imagenet',
-                 learning_rate=1.0e-4,
+                 learning_rate=1.0e-5,
                  z_size=2,
                  n_samples=5,
                  hlayer_size=512,
                  noise_std=1.0,
-                 gammas=[1.0e-1, 1.0e-1, 1.0e-1]):
+                 gammas=[1.0e-2, 1.0e-2, 1.0e-2]):
 
         self.input_shape = input_shape
         self.learning_rate = learning_rate
