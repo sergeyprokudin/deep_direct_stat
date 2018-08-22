@@ -48,7 +48,7 @@ class BiternionMixture:
         self.set_gammas(gammas)
         self.hlayer_size = hlayer_size
         self.z_size = z_size
-        self.out_size = 64
+        self.out_size = 16
         self.n_samples = n_samples
         self.noise_std = noise_std
         # self.n_sample_outputs = 9
@@ -73,7 +73,7 @@ class BiternionMixture:
             x = GlobalAveragePooling2D()(x)
 
         x = Dense(self.hlayer_size, activation='relu', input_shape=[1])(x)
-        # x = Dense(self.hlayer_size, activation='relu')(x)
+        x = Dense(self.hlayer_size, activation='relu')(x)
         x = Dense(self.out_size, activation='linear')(x)
 
         az_mean, az_kappa = self.decoder_seq("azimuth")
@@ -151,13 +151,15 @@ class BiternionMixture:
 
         decoder_mean = Sequential()
         decoder_mean.add(decoder_seq)
-        decoder_mean.add(Dense(128, activation='relu'))
+        decoder_mean.add(Dense(512, activation='relu'))
+        decoder_mean.add(Dense(512, activation='relu'))
         decoder_mean.add(Dense(2, activation='linear'))
         decoder_mean.add(Lambda(lambda x: K.l2_normalize(x, axis=1), name='%s_mean' % name))
 
         decoder_kappa = Sequential()
         decoder_kappa.add(decoder_seq)
-        decoder_kappa.add(Dense(128, activation='relu'))
+        decoder_kappa.add(Dense(512, activation='relu'))
+        decoder_kappa.add(Dense(512, activation='relu'))
         decoder_kappa.add((Dense(1,  activation='linear')))
         decoder_kappa.add(Lambda(lambda x: K.abs(x), name='%s_kappa' % name))
 
