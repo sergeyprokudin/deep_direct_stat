@@ -24,12 +24,12 @@ def main():
     x_train, y_train, x_val, y_val, x_test, y_test = pascal3d.load_pascal_data(pascaldb_path, cls=cls)
 
     log_step("defining the model..")
-    model = BiternionMixture(z_size=8, backbone_cnn='inception', hlayer_size=512, n_samples=10)
+    model = BiternionMixture(z_size=8, backbone_cnn='inception', hlayer_size=512, n_samples=10, learning_rate=1.0e-5)
     ckpt_path = os.path.join(log_dir, '%s.h5' % cls)
 
     log_step("training on class :%s" % cls)
     model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=200,
-              patience=10, batch_size=8)
+              patience=10, batch_size=1)
 
     log_step("training finished. loading weights..")
     model.model.load_weights(ckpt_path)
