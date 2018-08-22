@@ -24,7 +24,7 @@ def main():
     x_train, y_train, x_val, y_val, x_test, y_test = pascal3d.load_pascal_data(pascaldb_path, cls=cls)
 
     log_step("defining the model..")
-    model = BiternionMixture(z_size=8, backbone_cnn='inception', hlayer_size=512, n_samples=50)
+    model = BiternionMixture(z_size=16, backbone_cnn='inception', hlayer_size=512, n_samples=10)
     ckpt_path = os.path.join(log_dir, '%s.h5' % cls)
 
     log_step("training on class :%s" % cls)
@@ -37,7 +37,7 @@ def main():
     log_step("evaluating on train set..")
     model.evaluate(x_train,  y_train)
 
-    log_step("evaluating on train set..")
+    log_step("evaluating on validation set..")
     model.evaluate(x_val,  y_val)
 
     log_step("evaluating on test set..")
