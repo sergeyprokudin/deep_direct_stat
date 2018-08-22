@@ -30,7 +30,7 @@ def main():
     import ipdb; ipdb.set_trace()
 
     log_step("training on class :%s" % cls)
-    model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=50,
+    model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=5,
               patience=5, batch_size=32)
 
     import ipdb; ipdb.set_trace()
