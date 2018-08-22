@@ -5,7 +5,7 @@
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" afterPath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/utils/losses.py" afterPath="$USER_HOME$/BiternionNet/utils/losses.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_scripts/train_towncentre.py" afterPath="$PROJECT_DIR$/training_scripts/train_towncentre.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_scripts/train_pascal3d.py" afterPath="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_pascal3d.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train_pascal3d.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.444445">
-              <caret line="26" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.60559005">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -74,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_towncentre.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_towncentre.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training_scripts/train_towncentre.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.636646">
+            <state vertical-scroll-proportion="-22.777779">
               <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -176,10 +176,10 @@
         <option value="$PROJECT_DIR$/view_estimation/angle2dcm.m" />
         <option value="$PROJECT_DIR$/scripts/install.sh" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
         <option value="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
         <option value="$PROJECT_DIR$/models/infinite_mixture.py" />
         <option value="$PROJECT_DIR$/training_scripts/train_towncentre.py" />
+        <option value="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
       </list>
     </option>
   </component>
@@ -269,35 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deep_direct_stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deep_direct_stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="datasets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deep_direct_stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deep_direct_stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,7 +591,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="136" column="47" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="47" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -803,7 +775,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -890,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.444445">
-          <caret line="26" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.148149">
@@ -912,8 +874,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/training_scripts/train_towncentre.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.636646">
+        <state vertical-scroll-proportion="-22.777779">
           <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60559005">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
