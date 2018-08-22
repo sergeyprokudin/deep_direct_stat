@@ -41,13 +41,14 @@ class BiternionMixture:
                  n_samples=5,
                  hlayer_size=512,
                  noise_std=1.0,
-                 gammas=[1.0e-1, 1.0e-1, 1.0e-1]):
+                 gammas=[0, 0, 0]):
 
         self.input_shape = input_shape
         self.learning_rate = learning_rate
         self.set_gammas(gammas)
         self.hlayer_size = hlayer_size
         self.z_size = z_size
+        self.out_size = 64
         self.n_samples = n_samples
         self.noise_std = noise_std
         self.n_sample_outputs = 9
@@ -71,9 +72,9 @@ class BiternionMixture:
             x = backbone_model.output
             x = GlobalAveragePooling2D()(x)
 
-        x = Dense(z_size*16, activation='relu', input_shape=[1])(x)
-        x = Dense(z_size*4, activation='relu', input_shape=[1])(x)
-        x = Dense(z_size, activation='relu', input_shape=[1])(x)
+        x = Dense(self.hlayer_size, activation='relu', input_shape=[1])(x)
+        # x = Dense(self.hlayer_size, activation='relu')(x)
+        x = Dense(self.out_size, activation='linear')(x)
 
         az_mean, az_kappa = self.decoder_seq("azimuth")
         el_mean, el_kappa = self.decoder_seq("elevation")
@@ -145,7 +146,7 @@ class BiternionMixture:
 
         decoder_seq = Sequential(name='decoder_%s'%name)
 
-        decoder_seq.add(Dense(self.hlayer_size, activation='relu', input_shape=[self.z_size*2]))
+        decoder_seq.add(Dense(self.hlayer_size, activation='relu', input_shape=[self.z_size+self.out_size]))
         decoder_seq.add(Dense(self.hlayer_size, activation='relu'))
 
         decoder_mean = Sequential()

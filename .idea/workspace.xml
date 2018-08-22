@@ -6,7 +6,7 @@
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" afterPath="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/BiternionNet/utils/losses.py" afterPath="$USER_HOME$/BiternionNet/utils/losses.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_scripts/train_pascal3d.py" afterPath="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/infinite_mixture.py" afterPath="$PROJECT_DIR$/models/infinite_mixture.py" />
     </list>
     <ignored path="deep_direct_stat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="infinite_mixture.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="infinite_mixture.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1666665">
-              <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+            <state vertical-scroll-proportion="-0.81666666">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file leaf-file-name="train_pascal3d.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state vertical-scroll-proportion="-4.4444447">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -70,18 +70,6 @@
               <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="biternion_mixture.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/BiternionNet/models/biternion_mixture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4124293">
-              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +125,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/BiternionNet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,9 +143,9 @@
         <option value="$USER_HOME$/BiternionNet/train_vgg_towncentre.py" />
         <option value="$PROJECT_DIR$/training_scripts/train_towncentre.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/models/infinite_mixture.py" />
         <option value="$PROJECT_DIR$/training_scripts/train_pascal3d.py" />
         <option value="$USER_HOME$/BiternionNet/models/biternion_mixture.py" />
+        <option value="$PROJECT_DIR$/models/infinite_mixture.py" />
       </list>
     </option>
   </component>
@@ -853,22 +841,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1666665">
-          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/BiternionNet/train_pascal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.4661016">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/BiternionNet/models/biternion_mixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084745765">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,20 +881,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training_scripts/train_pascal3d.py">
+    <entry file="file://$PROJECT_DIR$/models/infinite_mixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/BiternionNet/models/biternion_mixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4124293">
-          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        <state vertical-scroll-proportion="-0.81666666">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
