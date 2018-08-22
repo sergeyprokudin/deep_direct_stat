@@ -28,21 +28,22 @@ def main():
     ckpt_path = os.path.join(log_dir, '%s.h5' % cls)
 
     log_step("training on class :%s" % cls)
-    model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=5,
-              patience=5, batch_size=32)
+    model.fit(x_train, y_train, validation_data=[x_val, y_val], ckpt_path=ckpt_path, epochs=200,
+              patience=10, batch_size=8)
 
     # model.fit(x_train[0:50], y_train[0:50], validation_data=[x_train[0:50], y_train[0:50]], ckpt_path=ckpt_path, epochs=100,
     #           patience=5, batch_size=32)
 
-    model.evaluate(x_train,  y_train)
-
-    import ipdb; ipdb.set_trace()
-
     log_step("training finished. loading weights..")
     model.model.load_weights(ckpt_path)
 
+    model.evaluate(x_train,  y_train)
+    model.evaluate(x_val,  y_val)
+
     log_step("evaluating on test set..")
     model.evaluate(x_test, y_test)
+
+    import ipdb; ipdb.set_trace()
 
     log_step("saving predictions for Matlab eval..")
     save_dir = os.path.join(log_dir, 'vp_test_results')
