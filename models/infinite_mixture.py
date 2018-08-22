@@ -37,21 +37,20 @@ class BiternionMixture:
                  backbone_cnn='inception',
                  backbone_weights='imagenet',
                  learning_rate=1.0e-4,
-                 z_size=2,
-                 n_samples=10,
+                 z_size=8,
+                 n_samples=5,
                  hlayer_size=512,
                  noise_std=1.0,
-                 gammas=[0, 0, 0]):
+                 gammas=[1.0e-1, 1.0e-1, 1.0e-1]):
 
         self.input_shape = input_shape
         self.learning_rate = learning_rate
         self.set_gammas(gammas)
         self.hlayer_size = hlayer_size
         self.z_size = z_size
-        self.out_size = 16
         self.n_samples = n_samples
         self.noise_std = noise_std
-        # self.n_sample_outputs = 9
+        self.n_sample_outputs = 9
         self.backbone_weights = backbone_weights
 
         if debug:
@@ -72,9 +71,9 @@ class BiternionMixture:
             x = backbone_model.output
             x = GlobalAveragePooling2D()(x)
 
-        x = Dense(self.hlayer_size, activation='relu', input_shape=[1])(x)
-        x = Dense(self.hlayer_size, activation='relu')(x)
-        x = Dense(self.out_size, activation='linear')(x)
+        x = Dense(z_size*16, activation='relu', input_shape=[1])(x)
+        x = Dense(z_size*4, activation='relu', input_shape=[1])(x)
+        x = Dense(z_size, activation='relu', input_shape=[1])(x)
 
         az_mean, az_kappa = self.decoder_seq("azimuth")
         el_mean, el_kappa = self.decoder_seq("elevation")
@@ -146,20 +145,18 @@ class BiternionMixture:
 
         decoder_seq = Sequential(name='decoder_%s'%name)
 
-        decoder_seq.add(Dense(self.hlayer_size, activation='relu', input_shape=[self.z_size+self.out_size]))
+        decoder_seq.add(Dense(self.hlayer_size, activation='relu', input_shape=[self.z_size*2]))
         decoder_seq.add(Dense(self.hlayer_size, activation='relu'))
 
         decoder_mean = Sequential()
         decoder_mean.add(decoder_seq)
-        decoder_mean.add(Dense(512, activation='relu'))
-        decoder_mean.add(Dense(512, activation='relu'))
+        decoder_mean.add(Dense(128, activation='relu'))
         decoder_mean.add(Dense(2, activation='linear'))
         decoder_mean.add(Lambda(lambda x: K.l2_normalize(x, axis=1), name='%s_mean' % name))
 
         decoder_kappa = Sequential()
         decoder_kappa.add(decoder_seq)
-        decoder_kappa.add(Dense(512, activation='relu'))
-        decoder_kappa.add(Dense(512, activation='relu'))
+        decoder_kappa.add(Dense(128, activation='relu'))
         decoder_kappa.add((Dense(1,  activation='linear')))
         decoder_kappa.add(Lambda(lambda x: K.abs(x), name='%s_kappa' % name))
 
@@ -346,7 +343,6 @@ class BiternionMixture:
 
     def pdf(self, x, gamma=1.0e-1, angle='azimuth', step=0.01):
         """
-
         :param x: input images
         :param gamma: weight of a default uniform distribution added to mixture
         :param angle: azimuth, elevation or tilt
