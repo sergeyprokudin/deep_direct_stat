@@ -37,8 +37,8 @@ class BiternionMixture:
                  backbone_cnn='inception',
                  backbone_weights='imagenet',
                  learning_rate=1.0e-4,
-                 z_size=8,
-                 n_samples=5,
+                 z_size=2,
+                 n_samples=10,
                  hlayer_size=512,
                  noise_std=1.0,
                  gammas=[0, 0, 0]):
@@ -51,7 +51,7 @@ class BiternionMixture:
         self.out_size = 64
         self.n_samples = n_samples
         self.noise_std = noise_std
-        self.n_sample_outputs = 9
+        # self.n_sample_outputs = 9
         self.backbone_weights = backbone_weights
 
         if debug:

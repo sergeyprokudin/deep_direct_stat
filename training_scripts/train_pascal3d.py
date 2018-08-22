@@ -24,7 +24,7 @@ def main():
     x_train, y_train, x_val, y_val, x_test, y_test = pascal3d.load_pascal_data(pascaldb_path, cls=cls)
 
     log_step("defining the model..")
-    model = BiternionMixture(z_size=2, backbone_cnn='inception', hlayer_size=128, n_samples=10)
+    model = BiternionMixture(z_size=2, backbone_cnn='inception', hlayer_size=512, n_samples=10)
     ckpt_path = os.path.join(log_dir, '%s.h5' % cls)
 
     log_step("training on class :%s" % cls)
