@@ -44,6 +44,8 @@ for an example of loading.
 
 ## Training
 
+WARNING: current procedure is broken, fix is in progress. Use pretrained models.
+
 To train on one of PASCAL3D+ classes,run:
 
 ```
