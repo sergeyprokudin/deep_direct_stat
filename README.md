@@ -39,9 +39,6 @@ utils/angles.py
 See [demo notebook](https://github.com/sergeyprokudin/deep_direct_stat/blob/master/notebooks/PASCAL3D%2B%20Data%20Loading%20Demo.ipynb)
 for an example of loading.
 
-
-### TownCentre
-
 ## Training
 
 WARNING: current procedure is broken, fix is in progress. Use pretrained models.
