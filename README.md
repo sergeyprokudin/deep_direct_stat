@@ -30,7 +30,7 @@ bash scripts/start_notebook.sh
 
 ### PASCAL3D+
 
-Download [the preprocessed data](https://drive.google.com/open?id=1bDcISYXmCcTqZhhCX-bhTuUCmEH1Q8YF) and place it into 
+Download [the preprocessed data](https://drive.google.com/open?id=1baI_QUNuGN9DJGgaOWubbservgQ6Oc4x) and place it into 
 "$PROJECT_DIR/data" folder.
 
 Note: all angles are stored in biternion (cos, sin) representation. Converters to degrees\radians are available at 
